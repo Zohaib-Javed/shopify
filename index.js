@@ -28,9 +28,9 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 app.post('/create/product',(req,res)=>{
-  console.log(req);
-  console.log(req.headers);
-  res.send(req.body)
+  // console.log(req);
+  // console.log(req.headers);
+  res.send(req.body);
 })
 app.post("/update/product", (req, res) => {
   console.log(req.body);
